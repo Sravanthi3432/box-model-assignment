@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Box Model Assignment</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial;
+    background:#f2f2f2;
+    padding:20px;
+}
+
+h2{
+    margin:20px 0;
+}
+
+/* Task 1 */
+.box1{
+    width:200px;
+    height:100px;
+    background:skyblue;
+    padding:20px;
+    margin:20px;
+    border:5px solid blue;
+}
+
+/* Task 2 */
+
+.parent{
+    width:700px;
+    border:2px solid black;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.box2{
+    width:250px;
+    height:100px;
+    background:lightgreen;
+    display:inline-block;
+    padding:20px;
+}
+
+.box3{
+    width:300px;
+    height:100px;
+    background:pink;
+    display:inline-block;
+    padding:20px;
+}
+
+/* Task 3 */
+
+.pad1{
+    background:orange;
+    padding:10px;
+    margin:10px;
+}
+
+.pad2{
+    background:yellow;
+    padding:30px;
+    margin:10px;
+}
+
+.pad3{
+    background:violet;
+    padding:50px;
+    margin:10px;
+}
+
+/* Task 4 */
+
+.margin1{
+    background:gray;
+    color:white;
+    margin-bottom:40px;
+    padding:20px;
+}
+
+.margin2{
+    background:silver;
+    margin-top:40px;
+    padding:20px;
+}
+
+/* Task 5 */
+
+.solid{
+    border:5px solid red;
+    padding:20px;
+    margin:10px;
+}
+
+.dotted{
+    border:5px dotted blue;
+    padding:20px;
+    margin:10px;
+}
+
+.dashed{
+    border:5px dashed green;
+    padding:20px;
+    margin:10px;
+}
+
+/* Task 6 */
+
+.calc{
+    width:400px;
+    padding:20px;
+    border:5px solid black;
+    margin:10px;
+    background:lightblue;
+}
+
+/* Task 7 */
+
+.responsive{
+    width:80%;
+    height:120px;
+    background:lightcoral;
+    margin:auto;
+    padding:20px;
+}
+
+/* Task 8 */
+
+.outer{
+    background:lightgreen;
+    padding:30px;
+    margin:20px;
+}
+
+.inner{
+    background:white;
+    border:2px solid black;
+    padding:20px;
+    margin:20px;
+}
+
+/* Task 9 */
+
+.layout{
+    background:white;
+    border:2px solid black;
+    padding:20px;
+    margin:20px;
+}
+
+.card{
+    background:lightyellow;
+    border:2px solid orange;
+    padding:20px;
+    margin:20px;
+}
+
+/* Task 10 */
+
+header{
+    background:black;
+    color:white;
+    padding:20px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+img{
+    width:200px;
+    border:4px solid blue;
+    padding:10px;
+    margin:20px;
+}
+
+button{
+    padding:15px 30px;
+    margin:20px;
+    border:3px solid black;
+    background:green;
+    color:white;
+}
+
+footer{
+    background:black;
+    color:white;
+    padding:20px;
+    margin-top:20px;
+    text-align:center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>CSS Box Model Assignment</h1>
+</header>
+
+<h2>Task 1 - Simple Box</h2>
+
+<div class="box1">
+Simple Box
+</div>
+
+<h2>Task 2 - Width & Height</h2>
+
+<div class="parent">
+
+<div class="box2">
+Box 1
+</div>
+
+<div class="box3">
+Box 2
+</div>
+
+</div>
+
+<h2>Task 3 - Padding Practice</h2>
+
+<div class="pad1">Padding 10px</div>
+
+<div class="pad2">Padding 30px</div>
+
+<div class="pad3">Padding 50px</div>
+
+<h2>Task 4 - Margin Collapse</h2>
+
+<div class="margin1">First Box</div>
+
+<div class="margin2">Second Box</div>
+
+<h2>Task 5 - Border Styles</h2>
+
+<div class="solid">Solid Border</div>
+
+<div class="dotted">Dotted Border</div>
+
+<div class="dashed">Dashed Border</div>
+
+<h2>Task 6 - Box Model Calculation</h2>
+
+<div class="calc">
+Width = 400px <br>
+Padding = 20px <br>
+Border = 5px <br>
+Margin = 10px <br><br>
+
+<b>Total Width = 470px</b>
+</div>
+
+<h2>Task 7 - Responsive Box</h2>
+
+<div class="responsive">
+Responsive Box
+</div>
+
+<h2>Task 8 - Nested Boxes</h2>
+
+<div class="outer">
+
+Outer Box
+
+<div class="inner">
+
+Inner Box
+
+</div>
+
+</div>
+
+<h2>Task 9 - Padding and Margin Layout</h2>
+
+<div class="layout">
+
+<div class="card">
+Card 1
+</div>
+
+<div class="card">
+Card 2
+</div>
+
+</div>
+
+<h2>Task 10 - Advanced Box Model</h2>
+
+<p>This paragraph demonstrates spacing using the Box Model.</p>
+
+<img src="https://picsum.photos/200" alt="Image">
+
+<br>
+
+<button>Click Me</button>
+
+<footer>
+
+<p>© 2026 CSS Box Model Assignment</p>
+
+</footer>
+
+</body>
+</html>
